@@ -19,7 +19,7 @@ Services added:
 ## 3. Prometheus Configuration
 We created a prometheus.yml file with targets
 
-## 5. Grafana Dashboard Setup
+## 4. Grafana Dashboard Setup
 ```
   - Opened http://localhost:3000
     - Logged in with default admin / admin
@@ -27,7 +27,7 @@ We created a prometheus.yml file with targets
     - Imported prebuilt dashboards from Grafana dashboards site
     - Example ID for Docker Monitoring: 193
 ```
-## 6. Metrics Being Monitored
+## 5. Metrics Being Monitored
 ```
   - System metrics via Node Exporter:
       - CPU
@@ -42,7 +42,7 @@ We created a prometheus.yml file with targets
       - I/O
       - restarts
 ```
-## 7. Key Learnings
+## 6. Key Learnings
 ```
 - How to link multiple monitoring tools using Docker Compose
 - Common container port conflicts and how to resolve
